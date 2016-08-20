@@ -1,0 +1,1 @@
+ln -s $HOME/projects/sublime_settings/Preferences.sublime-settings.symlink $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings

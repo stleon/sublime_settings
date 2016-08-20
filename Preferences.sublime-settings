@@ -1,6 +1,8 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by file type specific settings.
 {
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "font_size": 12.0,
     // set vertical rulers in specified columns.
     // Use "rulers": [80] for just one ruler
     // default value is []
@@ -29,3 +31,4 @@
     "use_tab_stops": true
 
 }
+
