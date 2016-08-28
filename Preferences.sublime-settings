@@ -1,34 +1,24 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by file type specific settings.
 {
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-    "font_size": 12.0,
-    // set vertical rulers in specified columns.
-    // Use "rulers": [80] for just one ruler
-    // default value is []
-    "rulers": [80, ],
-
-    // turn on word wrap for source and text
-    // default value is "auto", which means off for source and on for text
-    "word_wrap": false,
-
-    // set word wrapping at this column
-    // default value is 0, meaning wrapping occurs at window width
-    "wrap_width": 80,
-
+    "color_scheme": "Packages/User/Monokai (SublimePythonIDE).tmTheme",
+    "detect_identation": true,
     "draw_white_space": "all",
-
-    // Integer. The number of spaces a tab is considered equal to
+    "font_size": 13,
+    "ignored_packages":
+    [
+        "Anaconda",
+        "DocBlockr",
+        "Pylinter",
+        "Python",
+        "SublimeCodeIntel",
+        "SublimeLinter",
+        "Terminal",
+        "Vintage"
+    ],
+    "rulers":
+    [
+        80
+    ],
     "tab_size": 4,
-
-    // Boolean, if true, spaces will be inserted up to the next tab stop when tab is pressed, rather than inserting a tab character
     "translate_tabs_to_spaces": true,
-
-    // Boolean, if true (the default), tab_size and translate_tabs_to_spaces will be calculated automatically when loading a file
-    "detect_indentation": true,
-
-    // Boolean, If translate_tabs_to_spaces is true, use_tab_stops will make tab and backspace insert/delete up to the next tab stop
     "use_tab_stops": true
-
 }
-
